@@ -1,0 +1,19 @@
+Following is the software/package requirement to run the code:
+Tensorflow version<=1.5
+Keras
+opencv-python
+numpy,pandas
+
+
+TO RUN THE CODE:
+1. Kindly subsitute the path for test images and test.csv in the hackerearth_dl_beg_challenge.pynb file(preferably in the current directory).
+2. Keep all other files/folders as such. I have saved my model parameters in the current directory.
+3. Run hackerearth_dl_beg_challenge.pynb file.
+4. Results will be saved in final.csv file.
+5. For any issues, kindly contact on 9870142432/shu09bei@gmail.com.
+
+TECHNIQUE USED:
+I have used densenet pre-trained model to train my model the for the given task.
+
+FEATURE ENGINEERING:
+1. Each image is reduced to 224x224 pixels and further zero mean, unit variance normalization is done before feeding to our model input.
